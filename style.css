@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #461959;
+}
+h1{
+    text-align: center;
+   /* border: 1px solid yellow;*/
+    margin: 0px;
+    font-size: 8rem;
+    font-stretch: ultra-expanded;
+    font-family: 'lobster',cursive;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    text-shadow:  5px 0 black;
+    color: rgb(56, 229, 77);
+}
+div#outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+   /* border: 1px solid yellow;*/
+}
+div.image{
+    height: fit-content;
+    width: fit-content;
+    /*border: 1px solid yellow;*/
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+p.player{
+    margin-top: 0px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(56, 229, 77);
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(205, 102, 136);
+    margin: 20px;
+}
